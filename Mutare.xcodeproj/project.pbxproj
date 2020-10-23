@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29485C9E1E5FF7DC00E54BFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29485C9D1E5FF7DC00E54BFA /* AppDelegate.swift */; };
+		29485CA11E5FF7DC00E54BFA /* Mutare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29485C9F1E5FF7DC00E54BFA /* Mutare.xcdatamodeld */; };
+		29485CA51E5FF7DC00E54BFA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29485CA41E5FF7DC00E54BFA /* DetailViewController.swift */; };
+		29485CA81E5FF7DC00E54BFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29485CA61E5FF7DC00E54BFA /* Main.storyboard */; };
+		29485CAA1E5FF7DC00E54BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29485CA91E5FF7DC00E54BFA /* Assets.xcassets */; };
+		29485CAD1E5FF7DC00E54BFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29485CAB1E5FF7DC00E54BFA /* LaunchScreen.storyboard */; };
+		2985C87A1E7CBB76009F696E /* MutareBlackPieces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2985C8791E7CBB76009F696E /* MutareBlackPieces.bundle */; };
+		2985C87E1E7CBBF3009F696E /* MutareWhitePieces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2985C87D1E7CBBF3009F696E /* MutareWhitePieces.bundle */; };
+		29AEEA491EA2D1E100D27652 /* ShareAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AEEA481EA2D1E100D27652 /* ShareAppViewController.swift */; };
+		29AEEA4C1EA2D42700D27652 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AEEA4B1EA2D42700D27652 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29485C9A1E5FF7DC00E54BFA /* Mutare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mutare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29485C9D1E5FF7DC00E54BFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29485CA01E5FF7DC00E54BFA /* Mutare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mutare.xcdatamodel; sourceTree = "<group>"; };
+		29485CA41E5FF7DC00E54BFA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		29485CA71E5FF7DC00E54BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29485CA91E5FF7DC00E54BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29485CAC1E5FF7DC00E54BFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29485CAE1E5FF7DC00E54BFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2985C8791E7CBB76009F696E /* MutareBlackPieces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MutareBlackPieces.bundle; sourceTree = "<group>"; };
+		2985C87D1E7CBBF3009F696E /* MutareWhitePieces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MutareWhitePieces.bundle; sourceTree = "<group>"; };
+		29AEEA481EA2D1E100D27652 /* ShareAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareAppViewController.swift; sourceTree = "<group>"; };
+		29AEEA4B1EA2D42700D27652 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29485C971E5FF7DC00E54BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AEEA4C1EA2D42700D27652 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29485C911E5FF7DC00E54BFA = {
+			isa = PBXGroup;
+			children = (
+				29485C9C1E5FF7DC00E54BFA /* Mutare */,
+				29485C9B1E5FF7DC00E54BFA /* Products */,
+				29AEEA4A1EA2D42600D27652 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29485C9B1E5FF7DC00E54BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29485C9A1E5FF7DC00E54BFA /* Mutare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29485C9C1E5FF7DC00E54BFA /* Mutare */ = {
+			isa = PBXGroup;
+			children = (
+				29485C9D1E5FF7DC00E54BFA /* AppDelegate.swift */,
+				29485CA41E5FF7DC00E54BFA /* DetailViewController.swift */,
+				29485CA61E5FF7DC00E54BFA /* Main.storyboard */,
+				29AEEA481EA2D1E100D27652 /* ShareAppViewController.swift */,
+				29485CA91E5FF7DC00E54BFA /* Assets.xcassets */,
+				29485CAB1E5FF7DC00E54BFA /* LaunchScreen.storyboard */,
+				2985C8791E7CBB76009F696E /* MutareBlackPieces.bundle */,
+				29485CAE1E5FF7DC00E54BFA /* Info.plist */,
+				2985C87D1E7CBBF3009F696E /* MutareWhitePieces.bundle */,
+				29485C9F1E5FF7DC00E54BFA /* Mutare.xcdatamodeld */,
+			);
+			path = Mutare;
+			sourceTree = "<group>";
+		};
+		29AEEA4A1EA2D42600D27652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29AEEA4B1EA2D42700D27652 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29485C991E5FF7DC00E54BFA /* Mutare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29485CB11E5FF7DC00E54BFA /* Build configuration list for PBXNativeTarget "Mutare" */;
+			buildPhases = (
+				29485C961E5FF7DC00E54BFA /* Sources */,
+				29485C971E5FF7DC00E54BFA /* Frameworks */,
+				29485C981E5FF7DC00E54BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mutare;
+			productName = Mutare;
+			productReference = 29485C9A1E5FF7DC00E54BFA /* Mutare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29485C921E5FF7DC00E54BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jeff Yardley";
+				TargetAttributes = {
+					29485C991E5FF7DC00E54BFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PSQ8SPKA3T;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 29485C951E5FF7DC00E54BFA /* Build configuration list for PBXProject "Mutare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29485C911E5FF7DC00E54BFA;
+			productRefGroup = 29485C9B1E5FF7DC00E54BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29485C991E5FF7DC00E54BFA /* Mutare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29485C981E5FF7DC00E54BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2985C87A1E7CBB76009F696E /* MutareBlackPieces.bundle in Resources */,
+				29485CAD1E5FF7DC00E54BFA /* LaunchScreen.storyboard in Resources */,
+				2985C87E1E7CBBF3009F696E /* MutareWhitePieces.bundle in Resources */,
+				29485CAA1E5FF7DC00E54BFA /* Assets.xcassets in Resources */,
+				29485CA81E5FF7DC00E54BFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29485C961E5FF7DC00E54BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29485C9E1E5FF7DC00E54BFA /* AppDelegate.swift in Sources */,
+				29AEEA491EA2D1E100D27652 /* ShareAppViewController.swift in Sources */,
+				29485CA11E5FF7DC00E54BFA /* Mutare.xcdatamodeld in Sources */,
+				29485CA51E5FF7DC00E54BFA /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29485CA61E5FF7DC00E54BFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29485CA71E5FF7DC00E54BFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29485CAB1E5FF7DC00E54BFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29485CAC1E5FF7DC00E54BFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29485CAF1E5FF7DC00E54BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29485CB01E5FF7DC00E54BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29485CB21E5FF7DC00E54BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = PSQ8SPKA3T;
+				INFOPLIST_FILE = Mutare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffyardley1975.mutare1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "493a0ecf-3221-48c0-9325-694669b2ec1e";
+				PROVISIONING_PROFILE_SPECIFIER = Mutare_Distribution_10_6_2020;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		29485CB31E5FF7DC00E54BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = PSQ8SPKA3T;
+				INFOPLIST_FILE = Mutare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffyardley1975.mutare1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "76a1b2c0-4533-4c4c-b224-1ebfe45b3bec";
+				PROVISIONING_PROFILE_SPECIFIER = Mutare_Distribution_10_6_2020;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29485C951E5FF7DC00E54BFA /* Build configuration list for PBXProject "Mutare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29485CAF1E5FF7DC00E54BFA /* Debug */,
+				29485CB01E5FF7DC00E54BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29485CB11E5FF7DC00E54BFA /* Build configuration list for PBXNativeTarget "Mutare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29485CB21E5FF7DC00E54BFA /* Debug */,
+				29485CB31E5FF7DC00E54BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29485C9F1E5FF7DC00E54BFA /* Mutare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29485CA01E5FF7DC00E54BFA /* Mutare.xcdatamodel */,
+			);
+			currentVersion = 29485CA01E5FF7DC00E54BFA /* Mutare.xcdatamodel */;
+			path = Mutare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29485C921E5FF7DC00E54BFA /* Project object */;
+}
